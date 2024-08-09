@@ -1,4 +1,5 @@
 import "./App.css";
+import Campaigns from "./Components/Campaigns/Campaigns";
 import Categories from "./Components/Categories/Categories";
 import Footer from "./Components/Layout/Footer/Footer";
 import Header from "./Components/Layout/Header/Header";
@@ -12,6 +13,8 @@ function App() {
       <Header />
       <Sliders />
       <Categories />
+      <Product/>
+      <Campaigns/>
       <Product/>
       <Policy />
       <Footer />
