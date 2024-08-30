@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import BlogDetailsPage from "./Pages/BlogDetailsPage";
+import ProductDetailPage from "./Pages/ProductDetailPage";
+// import BlogDetailsPage from "./Pages/BlogDetailsPage";
 // import BlogPage from "./Pages/BlogPage";
 // import CartPage from "./Pages/CartPage";
 // import AuthPage from "./Pages/AuthPage";
@@ -16,9 +17,9 @@ function App() {
       <AuthPage/> 
       <CartPage/>
       <BlogPage/>
-      */
-      }
       <BlogDetailsPage/>
+      */}
+      <ProductDetailPage />
     </React.Fragment>
   );
 }
