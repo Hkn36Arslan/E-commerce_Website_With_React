@@ -1,6 +1,6 @@
 import "./Header.css";
 
-const Header = () => {
+const Header = ({setSearchShow}) => {
   return (
     <header>
       <div className="global-notification">
@@ -190,7 +190,9 @@ const Header = () => {
                   <i className="bi bi-person"></i>
                 </a>
                 <button className="search-button">
-                  <i className="bi bi-search"></i>
+                  <i
+                    className="bi bi-search" onClick={()=> setSearchShow(true)}
+                  ></i>
                 </button>
                 <a href="#">
                   <i className="bi bi-heart"></i>

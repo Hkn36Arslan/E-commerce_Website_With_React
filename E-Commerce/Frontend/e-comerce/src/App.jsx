@@ -17,7 +17,8 @@ function App() {
       <AuthPage/> 
       <CartPage/>
       <BlogPage/>
-      <BlogDetailsPage/>
+      <BlogDetailsPage />
+
       */}
       <ProductDetailPage />
     </React.Fragment>
