@@ -3,6 +3,7 @@ import "./Search.css";
 
 const Search = ({ isSearchShow, setSearchShow }) => {
   return (
+
     <div className={`modal-search ${isSearchShow ? "show" : ""}`}>
       <div className="modal-wrapper">
         <h3 className="modal-title">Search for products</h3>
@@ -54,7 +55,11 @@ const Search = ({ isSearchShow, setSearchShow }) => {
           id="close-search" onClick={()=>setSearchShow(false)}
         ></i>
       </div>
+      <div className="modal-overlay" onClick={()=>setSearchShow(false)}>
+      </div>
     </div>
+    
+  
   );
 };
 
