@@ -1,10 +1,7 @@
 import "./Search.css";
 
-<<<<<<< HEAD
-const Search = ({isSearchShow,setSearchShow}) => {
-=======
-const Search = ({ isSearchShow, setIsSearchShow }) => {
->>>>>>> 50b0319e6ba66e981b1733d10facedbc3213df93
+
+const Search = ({ isSearchShow, setSearchShow }) => {
   return (
     <div className={`modal-search ${isSearchShow ? "show" : ""}`}>
       <div className="modal-wrapper">
@@ -15,12 +12,10 @@ const Search = ({ isSearchShow, setIsSearchShow }) => {
         <form className="search-form">
           <input type="text" placeholder="Search a product" />
           <button>
-<<<<<<< HEAD
+
             <i className="bi bi-search" 
             ></i>
-=======
             <i className="bi bi-search"></i>
->>>>>>> 50b0319e6ba66e981b1733d10facedbc3213df93
           </button>
         </form>
         <div className="search-results">
@@ -56,12 +51,7 @@ const Search = ({ isSearchShow, setIsSearchShow }) => {
         </div>
         <i
           className="bi bi-x-circle"
-<<<<<<< HEAD
           id="close-search" onClick={()=>setSearchShow(false)}
-=======
-          id="close-search"
-          onClick={() => setIsSearchShow(false)}
->>>>>>> 50b0319e6ba66e981b1733d10facedbc3213df93
         ></i>
       </div>
     </div>
