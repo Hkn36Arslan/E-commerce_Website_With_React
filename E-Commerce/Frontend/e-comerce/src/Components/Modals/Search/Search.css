@@ -13,8 +13,12 @@
   opacity: 0;
   transition: 0.3s ease all;
 }
+<<<<<<< HEAD
 
 .modal-search.show{
+=======
+.modal-search.show {
+>>>>>>> 50b0319e6ba66e981b1733d10facedbc3213df93
   visibility: visible;
   opacity: 1;
 }

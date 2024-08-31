@@ -1,6 +1,10 @@
 import "./Header.css";
 
+<<<<<<< HEAD
 const Header = ({setSearchShow}) => {
+=======
+const Header = ({ setIsSearchShow }) => {
+>>>>>>> 50b0319e6ba66e981b1733d10facedbc3213df93
   return (
     <header>
       <div className="global-notification">
@@ -191,7 +195,12 @@ const Header = ({setSearchShow}) => {
                 </a>
                 <button className="search-button">
                   <i
+<<<<<<< HEAD
                     className="bi bi-search" onClick={()=> setSearchShow(true)}
+=======
+                    className="bi bi-search"
+                    onClick={() => setIsSearchShow(true)}
+>>>>>>> 50b0319e6ba66e981b1733d10facedbc3213df93
                   ></i>
                 </button>
                 <a href="#">
